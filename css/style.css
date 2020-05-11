@@ -1,57 +1,83 @@
 body {
-  background-color: wheat; }
+  background-color: wheat;
+}
 
 main {
-  display: flex; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .contenido {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 68%;
-  border: 1px solid black; }
+  border: 1px solid black;
+}
 
 .lateral {
   border: 1px solid black;
-  width: 30%; }
+  width: 30%;
+}
 
 .bloque1 {
-  display: flex; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .bloque2 {
-  display: flex; }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 
 .imagen1 {
   border: 1px solid black;
   border: 1px solid black;
   width: 100px;
   margin: 20px;
-  height: 100px; }
+  height: 100px;
+}
 
 .imagen2 {
   border: 1px solid black;
   width: 300px;
   margin: 20px;
-  height: 100px; }
+  height: 100px;
+}
 
 .imagen3 {
   border: 1px solid black;
   width: 100px;
   border: 1px solid black;
   margin: 20px;
-  height: 100px; }
+  height: 100px;
+}
 
 .imagen4 {
   border: 1px solid black;
   width: 300px;
   border: 1px solid black;
   margin: 20px;
-  height: 100px; }
+  height: 100px;
+}
 
 header {
   border: 2px solid black;
   width: 98%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-between; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
 
 .logo {
   border: 1px solid black;
@@ -59,17 +85,23 @@ header {
   height: 50px;
   margin: 10px;
   margin-left: 20px;
-  background-color: grey; }
+  background-color: yellow;
+}
 
 .menu {
   border: 1px solid black;
   width: 400px;
   margin: 10px;
   margin-right: 20px;
-  background-color: grey; }
+  background-color: grey;
+}
 
 body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column; }
-
-/*# sourceMappingURL=style.css.map */
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
