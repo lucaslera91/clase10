@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Comerce</title>
+    <link href="https://use.fontawesome.com/releases/v5.0.7/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><img class="contain" id="mainLogo" src="Logo LL-03 (1).png" alt=""></div>
+        <div class="title">
+            <h1><a href="index.html">E-comerce</a></h1>
+        </div>
+        <div class="checkoutCart"><a href="checkOut.html"><i id="cart" class="fas fa-cart-arrow-down"></i></a></i></div>
+
+    </header>
+
+    <section>
+        <h2>Datos de Cliente</h2>
+        <input type="text" id="buyerName" placeholder="Nombre">
+        <input type="text" id="buyerName" placeholder="Apellido">
+        <select name="" id="" > 
+            <option value="" id="" selected disabled hidden>Tipo de evío</option>
+            <option value="" id="retiroSucursal">Retiro en sucursal</option>
+            <option value="" id="envioAdomicilio">Envio a domicilio</option>
+        </select>
+
+    </section>
+    <section>
+        <h2>Datos de Pago</h2>
+       <input type="radio" name="metodoDePago" id="MP">
+       <label for="MP">Mercado Pago</label>
+       <input type="radio" name="metodoDePago" id="tarjetaDeCredito">
+       <label for="tarjetaDeCredito">Tarjeta de Credito</label>
+       <input type="radio" name="metodoDePago" id="otros">
+       <label for="otros">Paypall / efectivo / otros</label>
+
+    </section>
+
+    <script src="checkout.js"></script>
+    </html>
