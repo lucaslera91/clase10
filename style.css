@@ -47,12 +47,15 @@ header{
     color: white;
    display: flex;
    align-items: center;
+   justify-content: center;
    white-space: nowrap;
    text-decoration: none;
+   width: 100%;
 }
 .title a{
     color: white;
    text-decoration: none;
+   
 }
 .categorias ul{
     display: flex;
@@ -83,11 +86,41 @@ header{
 }
 #detalleDeProducto img{
 
-    height: 60vh;
-    width: 60vh;
+    height: auto;
+    width: 100%;
+    max-width: 50vh;
     object-fit: cover;
 }
+.checkOutBox{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 40vw;
+    
+}
+.checkout{
+    text-decoration: none;
+    color: white;
+    display: flex;
+}
+#carrito {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#carritoCheckout{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: small;
+    object-fit: contain;
 
+}
+#textoTotal{
+    
+    font-size: 35px;
+
+}
 
 
 
